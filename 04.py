@@ -20,13 +20,10 @@ ______                    _
 ===============================================
 """)
 import requests
-print(logo)
-
-
 from queue import Queue
 from optparse import OptionParser
 import time,sys,socket,threading,logging,urllib.request,random
-
+Print(logo)
 def user_agent():
 	global uagent
 	uagent=[]
